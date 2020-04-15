@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>Federal_Rules_Final_Test.xlsx &gt; a.rule.js</StartArguments>
+    <StartWorkingDirectory>D:\PRASEEDPAI\White_Papers\Ontology\EMDEON_BRE\EMDEON_BRE\SLANG_DOT_NET\XLS2SLANG\bin\Debug\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartWorkingDirectory>D:\PRASEEDPAI\White_Papers\Ontology\EMDEON_BRE\EMDEON_BRE\SLANG_DOT_NET\XLS2SLANG\bin\Debug\</StartWorkingDirectory>
+    <StartArguments>Federal_Rules_Final_Test.xlsx &gt; a.rule.js</StartArguments>
+  </PropertyGroup>
+</Project>
